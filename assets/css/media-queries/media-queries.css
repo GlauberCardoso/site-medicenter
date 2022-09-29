@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media (max-width:814px) {
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    #banner {
+        height: auto;
+    }
+
+    .banner_headline {
+        padding: 20px;
+    }
+
+    .banner_headline h1 {
+        font-size: 55px;
+        padding-top: 80px;
+    }
+
+    .banner_headline h3 {
+        font-size: 18px;
+        padding-bottom: 100px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #geral section,
+    #geral aside {
+        padding: 20px;
+    }
+
+    aside .widget_body_dep {
+        width: 55%;
+    }
+
+    aside .widget_body_appointment,
+    .contact .widget_contact_bar {
+        max-width: 90%;
+    }
+
+    .footer_menu,
+    .footer_area {
+        flex-direction: column;
+    }
+
+    .footer_area {
+        padding: 20px;
+    }
+
+    .footer_areaitem:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    footer .footer_copy {
+        padding-left: 20px;
+    }
+}
